@@ -1,5 +1,6 @@
 import React from "react";
 import Skeleton from "../skeletons/Skeleton";
+import Animation from "../skeletons/Animation";
 import "./Skeleton.css";
 
 const SkeletonArticle = ({ theme }) => {
@@ -13,6 +14,7 @@ const SkeletonArticle = ({ theme }) => {
         <Skeleton type="text" />
         <Skeleton type="text" />
       </div>
+      <Animation />
     </div>
   );
 };
